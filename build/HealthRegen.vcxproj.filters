@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{1ae1c563-2a43-471c-92dd-789f6cfa6127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rva">
+      <UniqueIdentifier>{628185b8-45d4-4d66-8fe1-2713f05af4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rva\sscan">
+      <UniqueIdentifier>{3d74fcd4-b289-49c8-aecb-26f42def83a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\HealthRegen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logger.cpp">
+      <Filter>logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rva\sscan\Pattern.cpp">
+      <Filter>rva\sscan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\HealthRegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Logger.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rva\RVA.h">
+      <Filter>rva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rva\sscan\Pattern.h">
+      <Filter>rva\sscan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
